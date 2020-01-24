@@ -26,6 +26,10 @@
         <b>{{id}}</b>
         <span>{{text}}</span>
         <i>{{tag}}</i>
+        <!-- Закидоны из groovy. Всё методы getSomething могут быть заменены на обращение
+        к полю (даже если оно не существует) с именем something.
+        <strong>{{getAuthorName}}</strong> -->
+        <strong>{{authorName}}</strong>
     </div>
     {{/messages}}
 </body>
